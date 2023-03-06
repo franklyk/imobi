@@ -204,6 +204,15 @@
     color: #7a7a7a;
 }
 
+#footer-details{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact-container{
+    text-align: center;
+}
+
 @media(min-width: 768px){
     #slider .carousel-caption{
         margin-bottom: 15em;
