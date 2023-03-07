@@ -12,7 +12,7 @@
 
 ::-webkit-scrollbar-thumb{
     background: #7a7a7a;
-    border-radius: .6rem;
+
 }
 
 
@@ -74,6 +74,7 @@
     margin-top: 8em;
     margin-bottom: 1em;
 }
+
 
 #slider .carousel-caption{
     bottom: 3em;
@@ -235,6 +236,10 @@
     border: none;
 }
 
+#links-container{
+    padding-left: 2rem;
+}
+
 
 
 @media(min-width: 768px){
@@ -276,8 +281,22 @@
         display: flex;
         justify-content: space-around;
     }
+
+    #news-container{
+        padding-right: 2em;
+    }
+
     #contact-container{
         text-align: center;
+        border-left: 1px solid #7a7a7a;
+        border-right: 1px solid #7a7a7a;
     }
+    
+    #links-container{
+        padding-left: 2em;
+    }
+
+    
+
 }
 
